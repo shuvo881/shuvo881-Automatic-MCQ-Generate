@@ -13,8 +13,8 @@ class Prompt:
             create a quiz  of {number} multiple choice questions for {subject} students in {tone} tone. 
             Make sure the questions are not repeated and check all the questions to be conforming the text as well.
             Make sure to format your response like  RESPONSE_JSON below  and use it as a guide. \
-            Ensure to make {number} MCQs
-            ### RESPONSE_JSON
+            Ensure to make {number} MCQs.
+            \nPlease respond in the following JSON format:\n
             {response_json}
 
             """
